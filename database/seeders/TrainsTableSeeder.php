@@ -24,8 +24,8 @@ class TrainsTableSeeder extends Seeder
             $train->company = $faker->randomElement(['Trenitalia', 'Trenord', 'Italo', 'TGV']);
             $train->departure_station = $faker->city();
             $train->arrival_station = $faker->city();
-            $train->departure_time = $faker->dateTime();
-            $train->arrival_time = $faker->dateTime();
+            $train->departure_time = $faker->time();
+            $train->arrival_time = $faker->time();
             $train->date = $faker->date();
             $train->train_code = $faker->bothify('??-######');
             $train->number_of_coaches = $faker->numberBetween(3, 20);

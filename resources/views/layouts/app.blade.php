@@ -18,6 +18,7 @@
 <body>
 
     @include('partials.header')
+    @include('partials.jumbotron')
 
     <main class="bg-light">
         @yield('content')
