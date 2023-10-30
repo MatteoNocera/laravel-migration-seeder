@@ -1,1 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
+
+footer {
+    a {
+        text-decoration: none;
+        color: gray;
+    }
+}
